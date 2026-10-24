@@ -47,5 +47,7 @@ public class LogicaDelNegocio {
 
         long totalSegundos = calcularTiempoEnSegundos(meses, semanas, dias, horas, minutos);
         System.out.println("Total en segundos: " + totalSegundos);
+        System.out.println("Calificacion 23 de Octubre" );
+        
     }
 }
