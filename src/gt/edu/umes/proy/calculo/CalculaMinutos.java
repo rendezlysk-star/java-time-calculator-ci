@@ -9,3 +9,4 @@ public class CalculaMinutos {
 }
 
 // Sincronización verificada desde GitHub
+//Verificación de sincronización y push local desde Eclipse
