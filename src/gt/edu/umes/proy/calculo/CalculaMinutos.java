@@ -7,3 +7,5 @@ public class CalculaMinutos {
         logica.procesarCalculo(args);
 	}
 }
+
+// Sincronización verificada desde GitHub
