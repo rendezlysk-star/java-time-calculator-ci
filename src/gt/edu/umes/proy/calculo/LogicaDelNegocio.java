@@ -50,4 +50,18 @@ public class LogicaDelNegocio {
         System.out.println("Calificacion 23 de Octubre - Ingeniería de Sofware II" );
         
     }
+    
+    public long calcularDesdeArgumentos(String[] argumentos) {
+        if (argumentos == null || argumentos.length != TOTAL_PARAMETROS_REQUERIDOS) {
+            throw new IllegalArgumentException("Se requieren exactamente 5 parámetros enteros.");
+        }
+
+        int meses = Integer.parseInt(argumentos[0]);
+        int semanas = Integer.parseInt(argumentos[1]);
+        int dias = Integer.parseInt(argumentos[2]);
+        int horas = Integer.parseInt(argumentos[3]);
+        int minutos = Integer.parseInt(argumentos[4]);
+
+        return calcularTiempoEnSegundos(meses, semanas, dias, horas, minutos);
+    }
 }
